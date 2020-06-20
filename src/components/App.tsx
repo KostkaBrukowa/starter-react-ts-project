@@ -1,11 +1,12 @@
 import React from 'react';
+import { Layout } from 'antd';
 import { HelloWorld } from './hello-world/HelloWorld';
 
 function App() {
   return (
-    <div className="App">
-      <HelloWorld what="world" />
-    </div>
+    <Layout>
+      <HelloWorld what="Wosld" />
+    </Layout>
   );
 }
 
